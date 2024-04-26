@@ -103,6 +103,14 @@ This Python package provides an accurate calculation of the Relative Strength In
 |24-04-2024|  2900.35 | 45.31 |
 |25-04-2024|  2919.95 | 48.64 |
 
+- plot by close prices
+
+![logo](output.png)
+
+- plot by RSI Values 
+
+![logo](output1.png)
+
 - As you can see in the snapshot below, the RSI Values do match with renowned platforms!
 
 ![logo](Reliance25-4-24RSI.png)
