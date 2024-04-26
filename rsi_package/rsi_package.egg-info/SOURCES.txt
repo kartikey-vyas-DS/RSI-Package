@@ -1,0 +1,8 @@
+setup.py
+rsi_calculator/__init__.py
+rsi_calculator/rsi_calculator.py
+rsi_package.egg-info/PKG-INFO
+rsi_package.egg-info/SOURCES.txt
+rsi_package.egg-info/dependency_links.txt
+rsi_package.egg-info/requires.txt
+rsi_package.egg-info/top_level.txt
