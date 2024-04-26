@@ -43,6 +43,46 @@ This Python package provides an accurate calculation of the Relative Strength In
     # Display the DataFrame with RSI values
     print(df.tail())
 
+#### if you wish to plot the data by closing prices copy paste the following code
+    import matplotlib.pyplot as plt
+
+    # Assuming your DataFrame is named df
+    # Convert the 'date' column to datetime objects
+    df['date'] = pd.to_datetime(df['date'], dayfirst=True)
+
+
+    # Plot the data
+    plt.figure(figsize=(10, 6))
+    plt.plot(df['date'], df['close'], label='Close Prices', color='blue')
+    plt.xlabel('Date')
+    plt.ylabel('Close Price')
+    plt.title('Reliance industries Limited Daily Time frame chart') # change according to your data 
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+#### if you wish to plot the data by RSI Values copy paste the following code
+    import matplotlib.pyplot as plt
+
+    # Assuming your DataFrame is named df
+    # Convert the 'date' column to datetime objects
+    df['date'] = pd.to_datetime(df['date'], dayfirst=True)
+
+    # Plot the data
+    plt.figure(figsize=(10, 6))
+    plt.plot(df['date'], df['RSI'], label='RSI Values', color='blue')
+    plt.xlabel('Date')
+    plt.ylabel('RSI Values')
+    plt.title('RSI Chart of Reliance industries limited Daily Time Frame')
+    plt.legend()
+    plt.grid(True)
+
+    # Add horizontal lines at RSI levels of 70 and 30
+    plt.axhline(y=70, color='red', linestyle='--', label='Overbought (70)')
+    plt.axhline(y=30, color='green', linestyle='--', label='Oversold (30)')
+
+    plt.show()
+
 
 ## Dataset Details 
 
