@@ -1,5 +1,5 @@
 
-![logo](downloadrsi.jpg)
+![logo](downloadrsi.png)
 
 
 # Working with stock market data ?
