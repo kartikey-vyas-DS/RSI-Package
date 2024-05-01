@@ -26,6 +26,12 @@ This Python package provides an accurate calculation of the Relative Strength In
 #### You can install the RSI Calculator package using pip:
         pip install rsi-package
 
+#### If you are using Google colab copy paste the below snippet[After installing the pip Given above] and then start from importin CSV as shown in next snippet
+        import sys
+        sys.path.append("/path/to/rsi_package-0.2")
+        from rsi_calculator.rsi_calculator import calculate_rsi
+
+
 #### Copy and paste the following code 
     import pandas as pd
     from rsi_package.rsi_calculator.rsi_calculator import calculate_rsi
